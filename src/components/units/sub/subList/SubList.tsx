@@ -1,12 +1,18 @@
+import { withAuth } from '@/src/components/commons/hocs/withAuth'
+import useRoutePage from '@/src/components/commons/hooks/useRoutePage'
 import * as Styled from './SubList.styles'
 
 const SubList = () => {
+  const { routePage } = useRoutePage()
   return (
     <Styled.Container>
-      <div>1</div>
-      <div>2</div>
+      {Array.from({ length: 5 }).map((el: any, idx) => (
+        <div key={idx} onClick={() => routePage(`/sub/${idx}`)}>
+          {idx}
+        </div>
+      ))}
     </Styled.Container>
   )
 }
 
-export default SubList
+export default withAuth(SubList)
