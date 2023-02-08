@@ -1,5 +1,7 @@
+import SubList from '@/src/components/units/sub/subList/SubList'
+
 const SubListPage = () => {
-  return <div>sub list page </div>
+  return <SubList />
 }
 
 export default SubListPage
