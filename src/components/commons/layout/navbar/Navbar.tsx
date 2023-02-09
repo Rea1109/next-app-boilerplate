@@ -1,4 +1,4 @@
-import useRoutePage from '../../hooks/useRoutePage'
+import useRoutePage from '../../../../commons/hooks/useRoutePage'
 import * as Styled from './Navbar.styles'
 
 const Navbar = () => {

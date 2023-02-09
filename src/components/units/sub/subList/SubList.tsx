@@ -1,5 +1,5 @@
 import { withAuth } from '@/src/components/commons/hocs/withAuth'
-import useRoutePage from '@/src/components/commons/hooks/useRoutePage'
+import useRoutePage from '@/src/commons/hooks/useRoutePage'
 import * as Styled from './SubList.styles'
 
 const SubList = () => {

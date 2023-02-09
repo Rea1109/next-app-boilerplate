@@ -1,4 +1,4 @@
-import { color } from '@/src/commons/styles'
+import { color } from '@/src/commons/styles/styles'
 import styled from '@emotion/styled'
 
 export const Footer = styled.footer`

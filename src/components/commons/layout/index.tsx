@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import Navbar from './navbar/Navbar'
 import Footer from './footer/Footer'
-import { color } from '@/src/commons/styles'
+import { color } from '@/src/commons/styles/styles'
 
 type Props = {
   children: React.ReactNode

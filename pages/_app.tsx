@@ -1,4 +1,4 @@
-import { globalStyles } from '@/src/commons/styles'
+import { globalStyles } from '@/src/commons/styles/styles'
 import { Global } from '@emotion/react'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
